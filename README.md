@@ -22,6 +22,7 @@ The instructions to create a lab are present here: https://github.com/LearnOnDem
 1. Each lab offers a VM connected via RDP, that runs Windows 10 and has 4 GB of RAM. VMs are running on Hyper-V and they *might* have support for nested virtualization (to be confirmed).
 1. In addition to the software that you require, each VM will have pre-installed a web browser (Edge), Visual Studio Code and [Anaconda](https://www.anaconda.com/download/).
 1. Each lab user will have access to an Azure subscription (an empty Resource Group specifically created). All resources provisioned during the lab are automatically destroyed at the end.
+1. Please avoid adding links in the `hol.md` file, as those would open on the client machine rather than in the VM.
 
 ## Sample
 
